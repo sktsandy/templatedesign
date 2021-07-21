@@ -1,0 +1,57 @@
+.margin_top{
+    margin-top: 70px;
+}
+
+.header{
+    top: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    color: #fff;
+
+    & h2{
+        font-size: 30px;
+        font-weight: 600;
+        color: $color-green;
+        letter-spacing: 1px;
+    }
+}
+
+.navbar_active h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: $color-green;
+    letter-spacing: 1px;
+}
+
+.navbar_active{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(52, 59, 64, 0.9);
+    z-index: 9999 !important;
+    height: 70px;
+}
+
+.a_active{
+    border-bottom: 2px solid $color-green;
+}
+
+.navbar_active .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 350;
+}
+
+.nav_menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav_menu li{
+    margin: 5px;
+}
+
+.nav_menu li a:hover{
+    border-bottom: 2px solid $color-green;
+}

@@ -1,0 +1,15 @@
+@mixin main-heading {
+    color: #333;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 1px;
+    padding: 15px;
+    font-weight: 900;
+}
+
+@mixin  main-heading-h4 {
+    font-size: 14px;
+    color: #999;
+    font-weight: 700;
+    word-spacing: 1px;
+}
